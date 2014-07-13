@@ -55,6 +55,7 @@ body {
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+    
   -webkit-font-smoothing: antialiased;
 }
 
@@ -253,7 +254,11 @@ form {
   background: #f2f2f2;
   padding: 20px;
 }
-
+[data-icon]:before {
+  font-family: icons; /* BYO icon font, mapped smartly */
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+}
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
@@ -270,22 +275,44 @@ Full-Width Styles
 }
 
 #forkme_banner {
-  display: block;
+  display: inline-block;
+/*
   position: absolute;
+*/
   top:0;
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #171a1c no-repeat 95% 50%;
+/*
   font-weight: 700;
+*/
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
 
+#facebook {
+ display: inline-block;
+/*
+  position: absolute;
+*/
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/white_facebook.png') #1e6ba7 no-repeat 95% 50%;
+/*
+  font-weight: 700;
+*/
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
 #header_wrap {
-  background: #212121;
+  background: #21212;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
@@ -313,6 +340,7 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+/*
 #downloads {
   position: absolute;
   width: 210px;
@@ -351,7 +379,17 @@ Full-Width Styles
 .tar_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
-
+*/
+#leftSideColumn
+{
+  float: left;
+  width: 200px;
+    padding-top:60px;
+    padding-left:50px;
+    font-size: 16px;
+    box-sizing:content-box;
+    
+  }
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
@@ -365,6 +403,7 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
+
 
 
 
