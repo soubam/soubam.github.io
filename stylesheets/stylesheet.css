@@ -34,7 +34,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+img { display:block; 
+    margin: 10px 15px 15px 10px;
+  border-top: 0px solid #111;
+}
 
+img { float:left;}
 ol, ul {
   list-style: none;
 }
@@ -42,6 +47,12 @@ ol, ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+    border-style: hidden
+ 
 }
 
 /*******************************************************************************
@@ -135,13 +146,13 @@ strong {
   font-weight: bold;
 }
 
-img {
+/*img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+  border: 0px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
@@ -158,7 +169,7 @@ p img {
   text-align: center;
   border: none;
 }
-
+*/
 pre, code {
   width: 100%;
   color: #222;
@@ -416,7 +427,6 @@ background: url('../images/dudu.jpg') #1e6ba7 no-repeat 95% 50%;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
-
 #main_content {
   padding-top: 40px;
 }
@@ -424,7 +434,15 @@ background: url('../images/dudu.jpg') #1e6ba7 no-repeat 95% 50%;
 #footer_wrap {
   background: #212121;
 }
+#book_wrap{
+  width: 563;
+  margin: 10px 10px 10px 10px;
+  border-style:solid;
+  border-width:1px;
+  border-color: white;
+  font-size: 12px;
 
+}
 
 
 
