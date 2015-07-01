@@ -422,6 +422,16 @@ background: url('../images/dudu.jpg') #1e6ba7 no-repeat 95% 50%;
     box-sizing:content-box;
     
   }
+#rightSideColumn
+{
+  float: right;
+  width: 200px;
+    padding-top:10px;
+    padding-right:50px;
+    font-size: 16px;
+    box-sizing:content-box;
+    
+  }
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111;
