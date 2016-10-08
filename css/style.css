@@ -104,7 +104,7 @@ img {
 }
 #routinebox {
 	background: url(../images/bg-adbox.jpg) repeat-x left top;
-	height: 380px;
+	height: 680px;
 	padding: 60px 0;
 }
 #routinebox > div {
@@ -126,7 +126,7 @@ img {
 #routinebox h2 {
 	font-size: 30px;
 	line-height: 36px;
-	text-transform: none;
+    text-transform: none;
 }
 #routinebox p {
 	font-size: 16px;
