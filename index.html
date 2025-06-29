@@ -1,239 +1,257 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Sonia Soubam : Personal Site" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sonia Soubam | Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!-- Google Fonts & Font Awesome (for icons) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-...sha" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Sonia Soubam</title>
-  </head>
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-  <body>
+<body>
+    <!-- ⓐ Header & mobile-friendly nav -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="logo"><a href="#top">Sonia Soubam</a></h1>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
+            <!--  Burger toggle (pure CSS) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
 
-          <h1 id="project_title">Sonia Soubam</h1>
-<!--
-          <h2 id="project_tagline">Personal Site</h2>
--->
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#patent">Patent</a></li>
+                    <li><a href="#poster">Poster</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#honors">Honors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<!--
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/soubam/sonia.github.io/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/soubam/sonia.github.io/tarball/master">Download this project as a tar.gz file</a>
-            </section>
--->
-        </header>
-    </div>
-<div id="rightSideColumn" class="outer">
-          <!-- <div align="right">
-          <img src="images/iiitdlogo.png" alt="Smiley face">
-          </div>
-         -->
-    
-    <!--
-    <div align="right">
-        
-        <img src="images/flickr_icon.png" alt="Smiley face" height="30%" width="30%">
-        <img src="images/flickr_icon.png" alt="Smiley face" height="30%" width="30%">
-        <img src="images/flickr_icon.png" alt="Smiley face" height="30%" width="30%">
-          </div>
-   -->
-      </div>
-<!-- Left Side Column -->
-      <div id="leftSideColumn" class="outer">
-          <div align="left">
-          <img src="resources/soubam_2025.jpeg" alt="Smiley face" height="210" width="162">
-          </div>
-          <!--
-          <h4>Projects</h4>
-          <li> BluePark</li>
-            <li> RoutineSense</li>
-          <li>Smart Drinking</li>
-          -->
-          <h4>Contact</h4>
-          <p>
-                 soniasoubam@gmail.com <br>
-                 sonia.soubam@ucd.ie
-          </p>
-  <a href="https://www.linkedin.com/in/sonia-soubam-b8863552">        <img src="images/Uiconstock-Socialmedia-Linkedin.ico" alt="LinkedIn" height="40" width="42"> </a>
-  <a href="https://scholar.google.com/citations?user=8xMR8DwAAAAJ&hl=en"> <img src="images/gscholar.png" alt="gscholar" height="40" width="42"> </a>
-          <!-- <a href="https://www.flickr.com/gp/40494551@N08/1963K2"> 
-          <img src="images/social_flickr_button.png" alt="Flickr" height="45" width="46"> </a>  -->
-          <br>
-          <!--
-          <a href="https://www.goodreads.com/soubam"> 
-          <img src="images/goodreadsbutton.jpg" alt="Flickr" height="45" width="46"> </a>
-          
-          <a href="https://github.com/soubam"> 
-          <img src="images/github-512.png" alt="Flickr" height="45" width="46"> </a>
--->
-      </div>
-      
-      
-      
-      
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">          
+    <!-- ⓒ About -->
+    <section id="about" class="hero">
+        <div class="container hero-inner">
+            <div class="container">
+                <h2>About me</h2>
+                <figure class="hero-img hero-img-mobile">
+                  <img src="resources/soubam_2025.jpeg" alt="Sonia Soubam profile photo" />
+                </figure>
+                <p>I am a Postdoctoral Researcher at University College Dublin, Ireland, working at the intersection of
+                    ubiquitous computing, human activity sensing, and sustainable transport. My research integrates
+                    wearable sensors, machine learning, and data analytics to address real-world challenges in health,
+                    mobility, and environmental sustainability. I am passionate about applied research and enjoy
+                    building proof-of-concept systems that translate technical innovations into practical solutions.
+                </p>
 
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-my-pages" class="anchor" href="#welcome-to-my-pages"><span class="octicon octicon-link"></span></a>About Me</h3>
-<p>I am a Postdoctoral Researcher at University College Dublin, Ireland, working at the intersection of ubiquitous computing, human activity sensing, and sustainable transport. My research integrates wearable sensors, machine learning, and data analytics to address real-world challenges in health, mobility, and environmental sustainability. I am passionate about applied research and enjoy building proof-of-concept systems that translate technical innovations into practical solutions.  
-</p>
+                <p>Currently, I am part of the Research Ireland-funded SHIFT project, where we investigate cyclist
+                    stress using physiological signals to evaluate cycling infrastructure and understand its impact on
+                    comfort and safety during active travel.</p>
 
-<p>Currently, I am part of the Research Ireland-funded SHIFT project, where we investigate cyclist stress using physiological signals to evaluate cycling infrastructure and understand its impact on comfort and safety during active travel.</p>
-<p>
-  I completed my Ph.D. in Computer Science & Engineering at IIIT-Delhi, under the guidance of <a href="https://www.vinayaknaik.info"> Prof. Vinayak Naik </a> and <a href="https://scholar.google.com/citations?user=aEOTSMEAAAAJ&hl=en">Dr. Dipanjan Chakraborty</a>. I also hold an M.Tech with a specialization in Information Security.
-</p>
+                <p>
+                    I completed my Ph.D. in Computer Science & Engineering at IIIT-Delhi, under the guidance of <a
+                        href="https://www.vinayaknaik.info"> Prof. Vinayak Naik </a> and <a
+                        href="https://scholar.google.com/citations?user=aEOTSMEAAAAJ&hl=en">Dr. Dipanjan
+                        Chakraborty</a>. I also hold an M.Tech with a specialization in Information Security.
+                </p>
 
-          <!-- <p>Please find my <a href="./documents/resume.pdf"> CV </a></p> -->
+            </div>
+            <figure class="hero-img hero-img-desktop">
+                <!-- Replace with your own image -->
+                <img src="resources/soubam_2025.jpeg" alt="Sonia Soubam profile photo" />
+            </figure>
+        </div>
+    </section>
 
+    <!-- ⓓ Publications -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h3>Publications</h3>
+            <ul class="item-list">
+                <li>
+                    S.Soubam, D. Banerjee, V. Naik. <strong>Detecting Writing Micro-Events Using Motion Sensors in
+                        Smartwatches.</strong> <em>International Conference on Distributed Computing in Smart Systems
+                        and the Internet (DCOSS-IoT), June 19 - 21, 2023, Pafos, Cyprus.</em>
+                </li>
+                <li> S. Soubam, M. Agarawal, V. Naik.
+                    <strong>Using an Arduino and a Smartwatch to Measure Liquid Consumed From Any Container.</strong>
+                    <em>9th International Conference on Communication Systems and Networks (COMSNETS), Bengaluru, India,
+                        2017</em>
+                </li>
+                <li>S. Soubam, D. Banerjee, V. Naik, D. Chakraborty.
+                    <strong>BluePark: Tracking parking and un-parking events in indoor garages. </strong>
+                    <em>Proceedings of the 17th International Conference on Distributed Computing and Networking, Jan
+                        4-7, 2016, Singapore</em>
+                </li>
+                <li>
+                    K. Yadav, D. Chakraborty, S. Soubam, N. Prathapaneni, V. Nandakumar, Vinayak Naik, N. Rajamani, L.
+                    V. Subramaniam, S. Mehta, and P. De.
+                    <strong>Human Sensors: Case-study of Open-ended Community Sensing in Developing Regions.</strong>
+                    <em>Pervasive Computing and Communication Conference Work in Progress, March 18-22, 2013, San Diego,
+                        USA</em>
+                    <!-- <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6529523&queryText%3Dhuman+sensors"> (link)</a> -->
+                </li>
+                <li>
+                    S. Soubam, N. Prathapaneni, V. Nandakumar, K. Yadav, V. Naik, N. Rajamani,
+                    D. Chakraborty, L.V. Subramaniam, S. Mehta, P. De.
+                    <strong>Open-Ended Community-Sensing: Data Collection and Processing.</strong>
+                    <em>Sixth Workshop on Analytics for Noisy Unstructured Text Data (AND'12), IIT Bombay, Mumbai, India
+                        <a href="../resources/AND09.pdf"> [Author Version]</a></em>
+                </li>
 
-<!--
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
--->
+            </ul>
+        </div>
+    </section>
 
+    <!-- ⓔ Patent -->
+    <section id="patent" class="section alt">
+        <div class="container">
+            <h3>US Patent</h3>
+            <ul class="item-list">
+                <li>
+                  <strong>Automatic indoor parking system using collaborative smartphone sensing</strong>
+                  <ul class="sub-list">
+                    <li>Patent number: US-10417928-B2. Grant Date: 2019-09-17</li>
+                    <li>Inventors: D. Banerjee, P. Dey, V. Ekambaram, R. S. Mittal, N. Rajput, S. Soubam</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Handwritten Homework Monitoring using Wearable Device</strong>
+                  <ul class="sub-list">
+                    <li>Patent number: US-9778341-B2. Grant Date: 2017-10-02</li>
+                    <li>Inventors: D. Banerjee, S. Soubam</li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    </section>
 
-<!-- <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Research Interest</h3>
+    <!-- ⓕ Poster -->
+    <section id="poster" class="section">
+        <div class="container">
+            <h3>Poster</h3>
+            <ul class="item-list">
+                <li> S. Soubam , P. Kearney, N. Soltani, A. Mölter, B. Caulfield, C. Ferrie.
+                    <strong>Developing a Model for the Evaluation of Cycling Infrastructure using Physiological
+                        Variables</strong>
+                    <em>Transportation Research Symposium, May 25 - 28, 2025, Rotterdam, Netherlands.</em>
+                </li>
+                <li> S. Soubam, N. Goyal, N. Adhikari, V. Naik.
+                    <strong>Understanding the Routine Activities of Students in Campus using Smartphone Sensors.
+                    </strong>
+                    <em>Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and
+                        Services
+                        Companion, June 26-30, 2016, Singapore </em>
+                </li>
+                <li> S. Soubam.
+                    <strong>BluePark: Tracking Parking and Un-parking Events in Indoor Garages.</strong>
+                    <em>MobiSys 2016 Women's Workshop, June 26-30, 2016, Singapore </em>
+                </li>
+                <li> S. Soubam, V. Naik, and D. Chakraborty.
+                    <strong>Detection of Day-to-Day Human Activities using Smart phones. </strong>
+                    <em>1st Xerox Research Centre India (XRCI) Open, Mar 14, 2014, Bangalore, India</em>
+                </li>
+                </p>
+            </ul>
+        </div>
+    </section>
 
-<p> <li> Mobile Sensing</li>
-    <li> Activity Detection</li>
-    <li> Real-time Systems</li>
-    <li> Indoor Localization</li>   
-</p> -->
-<!--
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Education</h3>
+    <!-- ⓖ Experience -->
+    <section id="experience" class="section alt">
+        <div class="container">
+            <h3>Work Experience</h3>
+            <ul class="item-list">
+                <li> Postdoctoral Researcher, University College Dublin, Ireland (August 2024 - Present)</li>
+                <li> Teaching Assitant for Wearable Applications, Research, Devices, Interactions (WARDI) Monsoon
+                    Semester,
+                    2017. <br>Instructor: Dr. Aman Pranami</li>
+                <li> Research Intern, IBM India Research Labs, New Delhi, India (June - August, 2016)</li>
+                <li> Research Intern, IBM India Research Labs, New Delhi, India (May - July, 2014)</li>
+                <li> Teaching Assistant for Mobile Computing course, Fall Semester, 2013.<br> Instructor: Dr. Vinayak
+                    Naik</li>
+            </ul>
+        </div>
+    </section>
 
-<p> <li> MTech Computer Science with Specialization in Information Security - IIIT-Delhi</li>
-    <li> BE Computer Science - Anna University, Coimbatore</li>
-</p>
--->
+    <!-- ⓗ Honors -->
+    <section id="honors" class="section">
+        <div class="container">
+            <h3>Honors</h3>
+            <ul class="item-list">
+                <li> Honorary Mention for the SHIFT project, EU Prize for Citizen Science 2025, awarded by Ars
+                    Electronica and
+                    the European Commission. <a
+                        href="https://ars.electronica.art/mediaservice/en/2025/06/20/european-union-prize-for-citizen-science-winners-2025/">Link</a>
+                </li>
+                <li> IBM PhD Fellowship, 2017-2018 </li>
+                <li> Third prize at the Innovation Challenge in Research Showcase'17, IIIT-Delhi.
+                <li> Best Poster Award in IBM Research Delhi Summer Internship, 2016.
+                <li> Best paper award for paper at Workshop on Wild and Crazy Ideas on the interplay between IoT and Big
+                    Data
+                    (WACI'17) in conjunction with the 9th International Conference on Communication and Networks
+                    (COMSNETS'17),
+                    Bangalore, India, Jan 4-8 2017</li>
+                <li> IBM PhD Fellowship, 2016-2017
+                </li>
+            </ul>
+        </div>
+    </section>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Publications</h3>
+    <!-- ⓘ Contact -->
+    <section id="contact" class="section alt">
+        <div class="container contact-grid">
+            <div>
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-envelope"></i> soniasoubam@gmail.com</p>
+                <p><i class="fa-solid fa-envelope-open"></i> sonia.soubam@ucd.ie</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://scholar.google.com" aria-label="Google Scholar"><i
+                        class="fa-brands fa-google-scholar"></i></a>
+            </div>
+        </div>
+    </section>
 
-<p> 
-  <li>
-    S.Soubam, D. Banerjee, V. Naik. <strong>Detecting Writing Micro-Events Using Motion Sensors in Smartwatches.</strong> <em>International Conference on Distributed Computing in Smart Systems and the Internet (DCOSS-IoT), June 19 - 21, 2023, Pafos, Cyprus.</em>
-  </li>
-  <li> S. Soubam, M. Agarawal, V. Naik. 
-    <strong>Using an Arduino and a Smartwatch to Measure Liquid Consumed From Any Container.</strong> 
-    <em>9th International Conference on Communication Systems and Networks (COMSNETS), Bengaluru, India, 2017</em>
-  </li>
-    <li>S. Soubam, D. Banerjee, V. Naik, D. Chakraborty. 
-      <strong>BluePark: Tracking parking and un-parking events in indoor garages.  </strong>
-      <em>Proceedings of the 17th International Conference on Distributed Computing and Networking, Jan 4-7, 2016, Singapore</em>
-  </li>
-  <li>
-    K. Yadav, D. Chakraborty, S. Soubam, N. Prathapaneni, V. Nandakumar, Vinayak Naik, N. Rajamani, L. V. Subramaniam, S. Mehta, and P. De. 
-    <strong>Human Sensors: Case-study of Open-ended Community Sensing in Developing Regions.</strong> 
-    <em>Pervasive Computing and Communication Conference Work in Progress, March 18-22, 2013, San Diego, USA</em> 
-    <!-- <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6529523&queryText%3Dhuman+sensors"> (link)</a> -->
-  </li>
-  <li>
-    Sonia Soubam, Naveen Prathapaneni, Vikrant Nandakumar, Kuldeep Yadav, Vinayak Naik, Nithya Rajamani, Dipanjan Chakraborty, L Venkata Subramaniam, Sameep Mehta, Pradipta De.                
-    <strong>Open-Ended Community-Sensing: Data Collection and Processing.</strong> 
-    <em>Sixth Workshop on Analytics for Noisy Unstructured Text Data (AND'12), IIT Bombay, Mumbai, India <a href="../documents/AND09.pdf"> [Author Version]</a></em>
-  </li>
-</p>
+    <!-- ⓙ Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            © 2025 Sonia Soubam · Last updated 28 June 2025
+        </div>
+    </footer>
 
+    <script>
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll(".site-nav a");
 
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop - 100;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute("id");
+                }
+            });
 
-  <h3>
-  <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Patent</h3>
-  <p> <li> Automatic indoor parking system using collaborative smartphone sensing
-      <ul style="list-style-type:circle">
-    <li>US US Patent 9,778,341, 2017</li>
-    </ul>
-     </li>
-      <li> Handwritten Homework Monitoring using Wearable Device
-     <ul style="list-style-type:circle">
-    <li>US Patent App. 15/343,981, 2018</li>
-  </ul>
-     </li>
-    </p>
+            navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
 
-
-<h3>
-  <a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Poster</h3>
-<p> 
-    <li> S. Soubam , P. Kearney, N. Soltani, A. Mölter, B. Caulfield, C. Ferrie.
-      <strong>Developing a Model for the Evaluation of Cycling Infrastructure using Physiological Variables</strong>
-      <em>Transportation Research Symposium, May 25 - 28, 2025, Rotterdam, Netherlands.</em>
-    </li>
-    <li> S. Soubam, N. Goyal, N. Adhikari, V. Naik. 
-      <strong>Understanding the Routine Activities of Students in Campus using Smartphone Sensors. </strong>
-      <em>Proceedings of the 14th Annual International Conference on Mobile Systems, Applications, and Services Companion, June 26-30, 2016, Singapore </em>
-    </li>
-    <li> S. Soubam.
-      <strong>BluePark: Tracking Parking and Un-parking Events in Indoor Garages.</strong>
-      <em>MobiSys 2016 Women's Workshop, June 26-30, 2016, Singapore </em>
-    </li>
-    <li> S. Soubam, V. Naik, and D. Chakraborty. 
-      <strong>Detection of Day-to-Day Human Activities using Smart phones. </strong>
-        <em>1st Xerox Research Centre India (XRCI) Open, Mar 14, 2014, Bangalore, India</em>
-    </li>  
-  </p>
-<h3>
-
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Work Experience</h3>
-
-<p>
-    <li> Postdoctoral Researcher, University College Dublin, Ireland (August 2024 - Present)</li>
-    <li> Teaching Assitant for Wearable Applications, Research, Devices, Interactions (WARDI) Monsoon Semester, 2017. Instructor: Dr. Aman Pranami</li>
-    <li> Research Intern, IBM India Research Labs, New Delhi, India (June - August, 2016)</li>
-    <li> Research Intern, IBM India Research Labs, New Delhi, India (May - July, 2014)</li>
-    <li> Teaching Assistant for Mobile Computing course, Fall Semester, 2013. Instructor: Dr. Vinayak Naik</li>
-</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Honors</h3>
- <p> 
-  <li> Honorary Mention for the SHIFT project, EU Prize for Citizen Science 2025, awarded by Ars Electronica and the European Commission. <a href="https://ars.electronica.art/mediaservice/en/2025/06/20/european-union-prize-for-citizen-science-winners-2025/">Link</a></li>
-   <li> IBM PhD Fellowship, 2017-2018     </li>
-   <li> Third prize at the Innovation Challenge in Research Showcase'17, IIIT-Delhi.
-     <li> Best Poster Award in IBM Research Delhi Summer Internship, 2016.
-   <li> Best paper award for paper at Workshop on Wild and Crazy Ideas on the interplay between IoT and Big Data (WACI'17) in conjunction with the 9th International Conference on Communication and Networks (COMSNETS'17), Bangalore, India, Jan 4-8 2017</li>
-   <li> IBM PhD Fellowship, 2016-2017
-     </li>
-    </p>
-    <!--<p> <li> Attended Workshop on Scientific Applications for the Internet of Things (IoT) the Abdus Salam International Centre for Theoretical Physics (ICTP)
-of UNESCO, Trieste, Italy</li>
-
-      <a id="forkme_banner" href="https://github.com/soubam">GitHub</a> 
--->
-<!--
-<a id="facebook" href="https://www.facebook.com/sonia.soubam">Facebook</a>
--->
-        </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright"> &copy; 2025 Sonia Soubam. 
-          Last updated on June 28, 2025
-        </p>
-        
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-          
-      </footer>
-    </div>
-
-    
-
-  </body>
 </html>
